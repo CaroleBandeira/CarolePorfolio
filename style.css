@@ -1,0 +1,191 @@
+css
+
+/* Styles pour les liens dans une liste non ordonnée */
+.ul {
+    text-decoration: none;
+    color: rgb(0, 180, 0);
+    font-size: 120px;
+    font-family: monospace;
+}
+
+/* Styles pour une liste avec texte de menu centré dans les cellules et sans les points */
+.menu-list {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    padding: 20;
+}
+
+/* Styles pour chaque élément de menu - boutons du menu*/
+.menu-item a {
+    border: 1px solid rgb(0, 180, 0);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: black;
+    display: block; /* Ajoutez cette ligne pour transformer le lien en un élément de bloc */
+    width: 100%; /* Ajoutez cette ligne pour que le lien occupe toute la largeur du conteneur */
+    height: 100%; /* Ajoutez cette ligne pour que le lien occupe toute la hauteur du conteneur */
+    text-decoration: none;
+    color: rgb(0, 180, 0);
+    font-size: 24px;
+}
+
+/* Styles pour un filigrane */
+.page7 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    opacity: 0.4;
+    z-index: -1;
+}
+
+
+
+/* Styles pour une animation de matrice */
+.matrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Styles pour le texte de l'animation de matrice */
+.matrix-text {
+    position: absolute;
+    top: 90;
+    left: 5vw;
+    width: 90vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  rgb(0, 180, 0);
+    font-size: 1.25vw;
+    font-family: monospace;
+    padding: 5;
+    margin: 5;
+    list-style-type: none;
+}
+
+.matrix-presentation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  rgb(0, 180, 0);
+    font-size: 40px;
+    font-family: monospace;    
+}
+.matrix-presentation a {
+    color:  rgb(0, 180, 0);
+    font-family: monospace;    
+}
+
+/* Styles pour les paragraphes dans le texte de l'animation de matrice */
+.matrix-text p {
+    text-align: center;
+    color:  rgb(0, 180, 0);
+    font-size: 40px;
+}
+
+/* Styles pour un conteneur d'icônes */
+.icons-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    width: 40;
+    background-color: transparent;
+}
+
+/* Styles pour les icônes dans le conteneur d'icônes */
+.icons-container a {
+    margin-left: 14px;
+    background-color: transparent;
+}
+.icon-menu a{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+}
+.icon-menu a img{
+    height: 3vw;
+    width: 3vw;
+}
+/*
+    margin: auto 16px;
+    background-color: transparent;
+    color: initial;
+    font-weight: inherit;
+    font-size: inherit;
+    list-style: none;
+    border-spacing: 0;
+    border: 0;
+    border-collapse: collapse;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+
+}
+/*.body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-row: 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}*/
+
+.img-competences {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.img-competences img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.body7 {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.h1 {
+    display: block;
+    color: rgb(0,180,0); 
+    font-size: 4vw;
+    font-family: monospace;
+    padding: 1vw;
+    margin-left: 5vw;  
+}
+  
+  
